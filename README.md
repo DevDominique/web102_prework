@@ -1,44 +1,48 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Monster Landing Page
 
-Submitted by: **Your Name Here**
+Submitted by: Dominique Wilson
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Sea Monster landing Page is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 20 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Top Navigation Menu with styled links that jump to each corresponding page section
+* [x] Search bar and button in top navigation bar allows user to search for a specific game by entering a keyword. The button handles a mouse click or key press ("Enter") then jumps down the page to their filtered search results in the Our Games section.
+* [x] Make a Pledge section that has 4 buttons that invite the user to pledge $20, $50, $100, or a custom dollar amount that they can specify.
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features:
+Here's a walkthrough video of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eyFf2Adi2Ko?si=F6zictozndmz3PwO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF (just for fun)
+<img src='\assets\Web102Prework.gif' title='PreWork GIF' width='' alt='PreWork GIF' />
+
+GIF created with: 
+[ImgFlip](https://imgflip.com/)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Top 3 Challenges Encountered:
+1. Integrating JavaScript logic with structured data.
+2. Refining dynamic rendering and filtering mechanisms.
+3. Implementing responsive design to create a smooth, intuitive experience across all sections.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2025 Dominique Wilson
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

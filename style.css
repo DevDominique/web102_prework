@@ -5,6 +5,65 @@ body {
     background-color: #758190;
 }
 
+.navbar {
+    background-color: #758190;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    padding: 0.2rem 2rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-family: 'Cabin';
+    transition: color 0.3s ease;
+}
+
+.nav-links a:visited {
+    color:lightgray;
+}
+
+.nav-links a:hover {
+    color: #2d4563;
+}
+
+.nav-links a:active {
+    color: lightblue;
+}
+
+.search-container {
+    display: flex;
+    justify-items: flex-end;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    gap: 0.5rem;
+
+}
+
+#search-input {
+    border: none;
+    padding: 0.2rem 1rem;
+    margin: 1%;
+    border-radius: 7px; 
+}
+
+#search-btn {
+    border: none;
+    padding: 0.2rem 1rem;
+    margin: 1%;
+    border-radius: 7px;
+    white-space: nowrap;
+}
+
 #tentacles {
     width: 50px;
 }
@@ -21,6 +80,9 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +134,34 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#pledge-container {
+    padding: 1%;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#pledge-content {
+    background-color: #a8b0bc;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    border-radius: 7px;
+}
+
+#pledge-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.2em;
+    flex-wrap: wrap;
+}
+
+.pledge-btn {
+    flex: 1 1 120px;
+    height: 50px;
+    min-width: 120px;
+    max-width: 160px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 30px lightblue;
 }

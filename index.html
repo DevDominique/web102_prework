@@ -7,6 +7,18 @@
   </head>
 
   <body>
+    <!-- nav bar with buttons and search -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#our-games">Games</a></li>
+            <li><a href="#pledge">Pledge Now</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="search for a game..."/>
+            <button id="search-btn">🔍 Search</button>
+        </div>
+    </nav>
     <!-- header row with logo -->
     <div class="header">
         <img id="tentacles" src="assets/tentacles.png">
@@ -48,7 +60,7 @@
     </div>
 
     <!-- list of games funded by Sea Monster -->
-    <h2>Our Games</h2>
+    <h2 id="our-games">Our Games</h2>
     <p>Check out each of our games below!</p>
     <div id="button-container">
         <button id="unfunded-btn">Show Unfunded Only</button>
@@ -57,6 +69,22 @@
     </div>
     <div id="games-container">
 
+    </div>
+
+    <!--Bonus section to collect new pledges-->
+    <div id= "pledge-container">
+        <div id="pledge-content">
+            <h2 id="pledge">Make a Pledge</h2>
+            <p><strong>Did you know that many indie games are created by just one person or a tiny team?</strong></p>
+            <p>Your pledge isn't just funding a game—it's fueling a creator's dream that has the potential to become a global sensation. Help us reach millions with new games that reshape entire genres.</p>
+            <p><strong><center>Click a button to pledge now!</center></strong></p>
+            <div id="pledge-buttons">
+                <button class="pledge-btn" data-amount="$20">$20</button>
+                <button class="pledge-btn" data-amount="$50">$50</button>
+                <button class="pledge-btn" data-amount="$100"> $100</button>
+                <button class="pledge-btn" data-amount="pledge-custom">Custom Amount</button>
+            </div>
+        </div>
     </div>
 
     <script type="module" src="index.js"></script>
