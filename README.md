@@ -4,7 +4,7 @@ Submitted by: Dominique Wilson
 
 Sea Monster landing Page is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: 20 hours spent in total
+Total time spent: 25 hours
 
 ## Required Features
 
