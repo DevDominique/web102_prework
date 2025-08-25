@@ -31,6 +31,12 @@ Click the YouTube thummnail below for a video walkthrough of all implemented fea
 
 <img src='\assets\Web102Prework.gif' title='PreWork GIF' width='' alt='PreWork GIF' />
 
+## Live Preview
+
+🌐Visit this link for a live preview of the website:
+ 
+https://devdominique.github.io/web102_prework/
+
 
 ## Notes
 
